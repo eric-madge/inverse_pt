@@ -1,6 +1,10 @@
 # Inverse PT Calculator
+
 [![license](https://img.shields.io/github/license/eric-madge/inverse_pt)](
   https://github.com/eric-madge/inverse_pt/blob/main/LICENSE
+)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.21439-%23B31B1B)](
+  https://arxiv.org/abs/2510.21439
 )
 
 A C++ code for the calculation fluid profiles of direct and inverse phase 
@@ -63,13 +67,14 @@ If you use this code in your work, please cite
 <a href="#Barni+ (2025b)">Barni, Blasi, Madge and Vanvlasselaer (2025)
 [Barni+ (2025b)]</a>.  
 ```bibtex
-@article{Barni:2025,
+@article{Barni:2025gnm,
     author = "Barni, Giulio and Blasi, Simone and Madge, Eric and Vanvlasselaer, Miguel",
     title = "{Gravitational waves from the sound shell model: direct and inverse phase transitions in the early Universe}",
-    eprint = "2510.XXXXX",
+    eprint = "2510.21439",
     archivePrefix = "arXiv",
     primaryClass = "hep-ph",
     reportNumber = "DESY-25-144, IFT-UAM/CSIC-25-118",
+    month = "10",
     year = "2025"
 }
 ```
@@ -291,8 +296,9 @@ and then `help(iptc)` for further information on the package content.
 
 ## License
 
-`inverse_pt` is licensed under the GNU General Public License, version 3 or
-later. See the accompanying [LICENSE file](LICENSE) for further details.
+The inverse PT calculator code is licensed under the GNU General Public License,
+version 3 or later. See the accompanying [LICENSE file](LICENSE) for further
+details.
 
 ## References
 
@@ -339,4 +345,5 @@ later. See the accompanying [LICENSE file](LICENSE) for further details.
 <a id="Barni+ (2025b)">[Barni+ (2025b)]</a>  
   G. Barni, S. Blasi, E. Madge and M. Vanvlasselaer,  
   *Gravitational waves from the sound shell model: direct and inverse phase
-  transitions in the early Universe*.
+  transitions in the early Universe*,  
+  [[arXiv:2510.21439 [hep-ph]](https://arxiv.org/abs/2510.21439)].
